@@ -64,7 +64,7 @@ CREATE TABLE `servico` (
 DROP TABLE IF EXISTS `usuario`;
 CREATE TABLE `usuario` (
   `login` varchar(20) NOT NULL,
-  `cadastro` varchar(20) NOT NULL
+  `senha` varchar(20) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
 
 --
